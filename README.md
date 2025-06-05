@@ -284,3 +284,12 @@ http://localhost
 You should see the **NGINX welcome page** 🟢
 
 ---
+
+
+
+
+```
+- hosts: all
+  tasks:
+    - ping:
+```
